@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-image: url("./mountain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 5em;
+    background: -webkit-linear-gradient(rgb(252, 252, 252), #a20606);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.countdown-container {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.countdown-container>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-text {
+    font-size: 4em;
+    line-height: 1;
+    padding: 0 1em;
+    font-weight: bold;
+}
+
+
+span {
+    /* color: #fff; */
+    font-weight: 700;
+}
